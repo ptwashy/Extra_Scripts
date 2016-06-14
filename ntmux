@@ -1,4 +1,4 @@
 #!/bin/bash
-[ $# -eq 0 ] && { echo "Usage: $0 session name"; exit 1; }
+[ $# -eq 0 ] && { echo "Usage: ntmux name"; exit 1; }
 
 tmux new-session -s $1
